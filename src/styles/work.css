@@ -1,0 +1,272 @@
+@import url(https://fonts.googleapis.com/css2?family=Urbanist);
+
+
+:root{
+    --blue-1: #011E34;
+    --blue-2: #092e4a;
+    --blue-3: #26648A;
+    --blue-4: #3B94C4;
+    --blue-5: #62A7CF;
+    --blue-6: #89BADA;
+    --blue-7: #b8cfde;
+    --off-white: #e2e8ec;
+    --off-black: #010c14;
+    --clear: #00000000; 
+}
+
+#tech{
+    background-image: url("../assets/th-valencia.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: 50%;
+    background-position-y: 40%;
+}
+
+
+#school{
+    background-image: url("../assets/th-school.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: 50%;
+    background-position-y: 65%;
+}
+
+
+
+#sports{
+    background-image: url("../assets/th-sports.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: 50%;
+    background-position-y: 40%;
+}
+
+
+
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.portfolio-page{
+    width: 100%;
+    min-height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* scroll-snap-type: y mandatory; */
+}
+
+.padded{
+    position: relative;
+    top: 100vh;
+}
+
+.buffer{
+    padding-top: 15vh;
+}
+
+.bottom-cushion{
+    padding-bottom: 30vh;
+}
+
+.card-box{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-around;
+    scroll-snap-align: start;
+}
+
+.info-box{
+    height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-title{
+    font-size: 7.5rem;
+    font-family: 'Figtree', san-serif;
+    color: var(--blue-6);
+    /* text-shadow: 0.1rem 0.15rem 0.5rem var(--off-black); */
+    opacity: 1;
+    z-index: 2;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.work-subhead{
+    font-size: 6rem;
+    font-family: 'Figtree', san-serif;
+    color: var(--blue-7);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    opacity: 1;
+    z-index: 1;
+    margin-top: 1rem;
+}
+
+.sticky{
+    position: sticky;
+    top: 3rem;
+}
+
+.work-info{
+    width: 88%;
+    font-size: 3rem;
+    /* position: sticky; */
+    top: 11rem;
+    font-family: 'Figtree', sans-serif;
+    color: var(--off-white);
+    text-align: justify;
+    margin: 1rem;
+    padding-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.work-article{
+    width: 88%;
+    font-size: 4.5rem;
+    font-family: 'Figtree', sans-serif;
+    color: var(--off-white);
+    text-align: justify;
+    margin: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+
+#world-button{
+        color: var(--off-white);
+        background-color: #010c1480;
+        margin: 0.5rem;
+}
+
+#world-button:hover{
+    background-color: #010c1400;
+    margin: 0.5rem;
+}
+
+.card{
+    width: 22%;
+    height: 30rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--off-white);
+}
+
+
+
+.card-img{
+    height: 50%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.card-body{
+    height: 50%;
+    padding: 0.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card-title{
+    font-family: 'Figtree', sans-serif;
+    color: var(--blue-1);
+    font-size: 2.5rem;
+    margin: 0.5rem;
+}
+
+.card-title-b{
+    font-family: 'Figtree', sans-serif;
+    color: var(--blue-1);
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.card-blurb{
+    font-family: 'Figtree', sans-serif;
+    color: var(--blue-2);
+    font-size: 1.25rem;
+    margin: 0.5rem;
+    overflow-y: scroll;
+}
+
+.card-blurb-b{
+    font-family: 'Figtree', sans-serif;
+    color: var(--blue-2);
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+.card-actions{
+    height: 20%;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-button{
+    width: 5rem;
+    background-color: var(--blue-5);
+    color: var(--blue-1);
+    font-family: 'Figtree', sans-serif;
+    font-size: 1.15rem;
+    font-weight: bolder;
+    padding: 0.4rem;
+    margin: 0.25rem;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.card-button:hover{
+    background-color: var(--blue-4); 
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1080px){
+    .card{width: 30%;}
+    .work-article{font-size: 3.5rem; width: 84%;}
+    .work-info{font-size: 2.5rem; width: 84%;}
+}
+
+@media screen and (max-width: 960px){
+    .card{width: 45%;}
+    .work-article{font-size: 3.5rem; width: 80%;}
+    .work-info{font-size: 2rem; width: 80%; top: 9rem;}
+}
+
+@media screen and (max-width: 680px) {
+    .card{width: 90%;}
+    .work-title{font-size: 5rem; margin-left: 4rem;}
+    .work-subhead{font-size: 4rem}
+    .work-article{font-size: 2.5rem}
+    .world-text{font-size: 3rem;}
+    .world-key-text{font-size: 3.3rem;}
+    .work-info{font-size: 1.75rem;}
+}
+
+@media screen and (max-width: 480px) {
+    .work-subhead{font-size: 3.5rem;}
+    .work-info{font-size: 1.5rem; top: 6rem;}
+}

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.284345d1.css",
+    "main.js": "/static/js/main.0b9120f6.js",
+    "static/media/th-sports.png": "/static/media/th-sports.8da43d4d1d3c7c76bd89.png",
+    "static/media/th-valencia.png": "/static/media/th-valencia.afd1b9aa39de1caa0e19.png",
+    "static/media/th-school.png": "/static/media/th-school.8e69fd5e5bea0866bd06.png",
+    "static/media/18-ind-notes-season-1.pdf": "/static/media/18-ind-notes-season-1.fde544292052242dae41.pdf",
+    "static/media/woodard-hof.png": "/static/media/woodard-hof.2fc63192d59733fe6b87.png",
+    "static/media/portrait.png": "/static/media/portrait.d4b9068f739903b864ec.png",
+    "static/media/NAMETHATDISH.pdf": "/static/media/NAMETHATDISH.d724032eb73664ab005a.pdf",
+    "static/media/1-clothing-lessonplan.pdf": "/static/media/1-clothing-lessonplan.85a5de801b0304f30907.pdf",
+    "static/media/hotel-map-role-play.pdf": "/static/media/hotel-map-role-play.8671992299fa13e12c4f.pdf",
+    "static/media/skyline.png": "/static/media/skyline.6a410c0d86dfb65a18ed.png",
+    "static/media/geography-puzzle.pdf": "/static/media/geography-puzzle.8119df5223724d4faa96.pdf",
+    "static/media/trh.png": "/static/media/trh.3ccbedebfc3a138b80e0.png",
+    "index.html": "/index.html",
+    "main.284345d1.css.map": "/static/css/main.284345d1.css.map",
+    "main.0b9120f6.js.map": "/static/js/main.0b9120f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.284345d1.css",
+    "static/js/main.0b9120f6.js"
+  ]
+}
